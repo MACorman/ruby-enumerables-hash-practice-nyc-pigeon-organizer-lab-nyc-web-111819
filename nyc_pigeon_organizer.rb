@@ -5,6 +5,7 @@ def nyc_pigeon_organizer(data)
      names.each do |name|
        
        if !result[name]
+         result[name] = {}
          
        
       end
