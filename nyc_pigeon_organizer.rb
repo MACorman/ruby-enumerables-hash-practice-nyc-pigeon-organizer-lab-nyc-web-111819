@@ -12,6 +12,7 @@ def nyc_pigeon_organizer(data)
          result[name][key] = []
        end
        
+       result[name][key] << new_value_to.s 
        
       end
     end
