@@ -1,8 +1,22 @@
 def nyc_pigeon_organizer(data)
   result = {}
-  i = 0 
-  while i < data.size do 
-    
+  data.each do |key, value|
+    value.each do |new_value, name|
+     name.each do |name|
+       
+       if !result[name]
+         result[name] = {}
+       end
+       
+       if !result[name][key]
+         result[name][key] = []
+       end
+       
+       result[name][key] << new_value.to_s 
+       
+      end
+    end
   end
+  result
 end
-binding.pry 
+ 
