@@ -1,9 +1,9 @@
 def nyc_pigeon_organizer(data)
   result = {}
-  data.each |key, value| do
-    value.each |new_value, name| do
-     names.each do 
-      name
+  data.each do |key, value|
+    value.each do |new_value, name|
+     names.each do |name|
+       
       end
     end
   end
