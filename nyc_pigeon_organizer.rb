@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
     value.each do |new_value, name|
      names.each do |name|
        
-       if !new_name
+       if !result 
        
       end
     end
